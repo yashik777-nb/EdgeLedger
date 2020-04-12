@@ -16,9 +16,9 @@ $('#navbar a, .btn').click(function(event){
 
 window.addEventListener('scroll', function(){
     if(window.scrollY > 150){
-        this.document.getElementById('#navbar').style.opacity = 0.3;
+        this.document.querySelector('#nav-bar').style.opacity = 0.8;
     }else {
-        this.document.getElementById('#navbar').style.opacity = 1;
+        this.document.querySelector('#nav-bar').style.opacity = 1;
     }
 });
 
