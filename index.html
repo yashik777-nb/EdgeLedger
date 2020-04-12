@@ -11,7 +11,6 @@
     <link rel="stylesheet" media="screen and (min-width:1100px)" href="./CSS/widescreen.css">
     <script src="https://kit.fontawesome.com/23714e2e1d.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <script src="./js/main.js"></script>
     <title>EdgeLedger Financial | Accounting | Investment</title>
 </head>
 
@@ -106,6 +105,45 @@
             </div>
         </div>
     </section>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="number" name="phone" id="phone" placeholder="1234567890">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Message"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+            <p>CopyRight &copy; 2020, EdgeLedger. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Load Map JS Files -->
+    <script src="./js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnH9GrRivYOf6DB5Jz2vrlGtAYAdzGfaM&callback=initMap"
+        async defer></script>
 </body>
 
 </html>
+
+<!-- AIzaSyAnH9GrRivYOf6DB5Jz2vrlGtAYAdzGfaM -->
