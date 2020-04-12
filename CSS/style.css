@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -132,6 +136,7 @@ p {
     justify-content: space-between;
     z-index: 1;
     padding: 1rem;
+    /* opacity: 0.9; */
 }
 
 #nav-bar ul{
@@ -168,7 +173,7 @@ p {
     padding: 0 2rem;
     /* Overlay */
     position: inherit;
-    top: 60px;
+    top: 65px;
     left:0;
     right: 0;
     bottom: 0;
