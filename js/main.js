@@ -7,7 +7,7 @@ $('#navbar a, .btn').click(function(event){
             {
                 scrollTop: $(hash).offset().top -100
             },
-            500
+            800
         );
     }
 });
